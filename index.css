@@ -1,0 +1,139 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+#navigation_bar {
+  height: 100%;
+  flex: 0.2;
+  border-right: 1px solid gray;
+  padding-left: 10px;
+  padding-right: 6px;
+}
+ul {
+list-style: none;
+padding: 0%;
+}
+li:hover {
+background-color: rgba(255, 255, 255, 0.08);
+}
+li{
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    padding-left: 0px;
+    border-radius: 4px;
+}
+#main_page {
+  height: 100%;
+  flex: 0.8;
+  display: flex;
+  overflow-y: auto;
+  height: 100%;
+}
+#profile_pic{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+#more{
+  position: absolute;
+  bottom: 0px;
+}
+
+.posts{
+  flex: 0.8;
+  padding: 70px;
+  padding-top: 10px;
+}
+.post{
+  width: 450px;
+}
+.post_head{
+display: flex;
+justify-content: space-between;
+}
+.post_profile{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.left{
+  display: flex;
+  gap: 10px;
+}
+.left button{
+  background-color: transparent;
+}
+.icon_button{
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+
+.icon_button:hover {
+background-color: rgba(255, 255, 255, 0.08);
+}
+.post_img{
+padding: 30px;
+}
+.post_img img{
+  height: 450px;
+  width: 100%;
+}
+.post_reaction{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.post_reaction button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+.post_comments{
+  padding: 30px;
+  padding-top: opx;
+}
+#likes{
+  font-weight: bold;
+}
+.text_secondary{
+  color: lightgray;
+}
+#profile_img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.user_div{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.sg_btn{
+  background-color: none;
+  border: none;
+  color: dodgerblue;
+  font-size: 15px;
+}
+.sg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion{
+  flex: 0.3;
+  padding-right: 30px;
+}
+.suggestion{
+  position: sticky;
+  top: 10px;
+}

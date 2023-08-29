@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css/?family=lobster">
+</head>
+<body>
+    <!--navigation bar-->
+    <div id="navigation_bar">
+        <div>
+            <h3>Instragram</h3>
+            <nav>
+              <ul>
+                <ul>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+                      </svg>Home</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>Search</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass" viewBox="0 0 16 16">
+                        <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                        <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+                      </svg>Explore</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+                                <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                              </svg>Reels</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                                <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                              </svg>Messages</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                              </svg>Notification</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-plus" viewBox="0 0 16 16">
+                                <path d="M8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z"/>
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                              </svg>Create</li>
+                         
+                              <li>
+                              <img src="https://images.pexels.com/photos/6177639/pexels-photo-6177639.jpeg?auto=compress&cs=tinysrgb&w=400" alt="profile pic" id="profile_pic">Profile</li>
+                            </li>
+                            </ul>
+                            
+            </nav>
+            <ul id="More">
+              <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>More</li>
+            </ul>
+        </div>
+    </div>
+    <!--main page-->
+    <div id="main_page">
+      <!--post div-->
+  <div class="posts">
+    <!--post-->
+      <div class="post">
+        <div class="post_head">
+
+          <div class="left">
+           <img src="https://th.bing.com/th?q=Al+Jazeera+Balkans+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.1&pid=InlineBlock&mkt=en-WW&cc=KE&setlang=en&adlt=moderate&t=1&mw=247" alt="profile" class="post_profile"/>
+           <p>Aljazeera</p>
+          </div>
+          <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg></button>
+        </div>
+        <div class="post_img">
+          <img src= "https://images.pexels.com/photos/7078721/pexels-photo-7078721.jpeg?auto=compress&cs=tinysrgb&w=400"alt="post image">
+        </div>
+
+        <div class="post_reaction">
+        <div class="left">
+          <button><i class="bi bi-heart"></i>
+          </button>
+          <button><i class="bi bi-chat"></i>
+          </button>
+          <button><i class="bi bi-share"></i>
+          </button>
+          </div>
+          <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes">3,434 likes</p>
+          <p id="all_comments">3,400,435</p>
+          <div id="add_new_comments">Add new comments</div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post_head">
+
+          <div class="left">
+           <img src="https://www.bing.com/th?id=OIP.Sbs-M2-y31gNoj9n-IIeowHaHa&w=102&h=102&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="profile" class="post_profile"/>
+           <p>Twitter</p>
+          </div>
+          <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg></button>
+        </div>
+        <div class="post_img">
+          <img src= "https://images.pexels.com/photos/3027794/pexels-photo-3027794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"alt="post image">
+        </div>
+
+        <div class="post_reaction">
+        <div class="left">
+          <button><i class="bi bi-heart"></i>
+          </button>
+          <button><i class="bi bi-chat"></i>
+          </button>
+          <button><i class="bi bi-share"></i>
+          </button>
+          </div>
+          <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes">3,434 likes</p>
+          <p id="all_comments">3,400,435</p>
+          <div id="add_new_comments">Add new comments</div>
+        </div>
+      </div>
+
+
+      <div class="post">
+        <div class="post_head">
+
+          <div class="left">
+           <img src="https://th.bing.com/th?id=OIP.2xPYNcauz4ktvF2QRCy4ZwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="profile" class="post_profile"/>
+           <p>Quora</p>
+          </div>
+          <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg></button>
+        </div>
+        <div class="post_img">
+          <img src= "https://images.pexels.com/photos/6348061/pexels-photo-6348061.jpeg?auto=compress&cs=tinysrgb&w=400"alt="post image">
+        </div>
+
+        <div class="post_reaction">
+        <div class="left">
+          <button><i class="bi bi-heart"></i>
+          </button>
+          <button><i class="bi bi-chat"></i>
+          </button>
+          <button><i class="bi bi-share"></i>
+          </button>
+          </div>
+          <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes">3,434 likes</p>
+          <p id="all_comments">3,400,435</p>
+          <div id="add_new_comments">Add new comments</div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post_head">
+
+          <div class="left">
+           <img src="https://th.bing.com/th/id/OIP.LMhyG4crULFC8sEiKUbO_AHaCr?pid=ImgDet&w=850&h=308&rs=1" alt="profile" class="post_profile"/>
+           <p>Citizen TV</p>
+          </div>
+          <button class="icon_button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-three-dots" viewBox="0 0 16 16">
+            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg></button>
+        </div>
+        <div class="post_img">
+          <img src= "https://images.pexels.com/photos/1550335/pexels-photo-1550335.jpeg?auto=compress&cs=tinysrgb&w=400"alt="post image">
+        </div>
+
+        <div class="post_reaction">
+        <div class="left">
+          <button><i class="bi bi-heart"></i>
+          </button>
+          <button><i class="bi bi-chat"></i>
+          </button>
+          <button><i class="bi bi-share"></i>
+          </button>
+          </div>
+          <button><i class="bi bi-bookmark"></i></button>
+        </div>
+        <div class="post_comments">
+          <p id="likes">3,434 likes</p>
+          <p id="all_comments">3,400,435</p>
+          <div id="add_new_comments">Add new comments</div>
+        </div>
+      </div>
+      <!--end of post-->
+      </div>
+      <!--suggestion div-->
+      <div class="suggestion">
+
+        <div class="user_div">
+  
+          <img src="https://images.pexels.com/photos/6177639/pexels-photo-6177639.jpeg?auto=compress&cs=tinysrgb&w=400"
+            alt="profile pic"
+            id="profile_img"
+             />
+             <div>
+              <p style="font-weight: 700; font-size: 50%;">HURRIAH_KANO</p>
+              <p>Khan Wie Hoth</p>
+             </div>
+             <button class="sg_btn">switch</button>
+             
+            </div>
+            <div class="sg">
+             <p>Suggested for you</p>
+             <button>see all</button>
+             
+             </div>
+             <div class="user_div">
+  
+              <img src="https://images.pexels.com/photos/17903940/pexels-photo-17903940/free-photo-of-firefighter-by-burnt-building.png?auto=compress&cs=tinysrgb&w=400&lazy=load"
+                alt="profile pic"
+                id="profile_img"
+                 />
+                 <div>
+                  <p style="font-weight: 700; font-size: 50%;">Shakhor_monash</p>
+                  <p>New to Instragram</p>
+                 </div>
+                 <button class="sg_btn">Follow</button>
+                 
+                </div>
+                <div class="user_div">
+  
+                  <img src="https://images.pexels.com/photos/16943679/pexels-photo-16943679/free-photo-of-young-girl-in-denim-jacket-and-jeans.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+                    alt="profile pic"
+                    id="profile_img"
+                     />
+                     <div>
+                      <p style="font-weight: 700; font-size: 50%;">Chol_Dak</p>
+                      <p>Suggested for you</p>
+                     </div>
+                     <button class="sg_btn">Follow</button>
+                     
+                    </div>
+
+                    <div class="user_div">
+  
+                      <img src="https://images.pexels.com/photos/5339952/pexels-photo-5339952.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+                        alt="profile pic"
+                        id="profile_img"
+                         />
+                         <div>
+                          <p style="font-weight: 700; font-size: 50%;">Mai_Jock</p>
+                          <p>New to Instragram</p>
+                         </div>
+                         <button class="sg_btn">Follow</button>
+                         
+                        </div>
+                        <div class="user_div">
+  
+                          <img src="https://images.pexels.com/photos/13211891/pexels-photo-13211891.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+                            alt="profile pic"
+                            id="profile_img"
+                             />
+                             <div>
+                              <p style="font-weight: 700; font-size: 50%;">Gatkhor_kuony</p>
+                              <p>Follow by Wany Gal and 30 others</p>
+                             </div>
+                             <button class="sg_btn">Follow</button>
+                             
+                            </div>
+
+                            <div class="user_div">
+  
+                              <img src="https://images.pexels.com/photos/17994831/pexels-photo-17994831/free-photo-of-a-fashionable-man-standing-on-the-sidewalk.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+                                alt="profile pic"
+                                id="profile_img"
+                                 />
+                                 <div>
+                                  <p style="font-weight: 700; font-size: 50%;">Dak_wal</p>
+                                  <p>Follow by Gabu your favourite friend</p>
+                                 </div>
+                                 <button class="sg_btn">follow</button>
+                                 
+                                </div>
+
+             </div>
+
+      </div>
+    </div>
+  
+    
+
+</div>
+</body>
+</html>
